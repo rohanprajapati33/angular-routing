@@ -1,0 +1,15 @@
+
+<div>
+    <div>user with id is {{user.id}}</div>
+    <div>user with name is {{user.name}}</div>
+</div>
+
+<div>
+    <a routerLink="['/users',1 ,'rohan']" [queryParams]="{page:1,search:'rohan'}" [fragment]="'loading'">get a details
+        of rohan</a>
+</div>
+
+<div>
+    <button (click)="getRamaDetails()">Get Rama details</button>
+
+</div>
